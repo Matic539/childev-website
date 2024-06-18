@@ -4,7 +4,7 @@
 import React from 'react';
 import AppRouter from './router';
 import Navbar from './components/common/Navbar';
-import Footer from './components/common/Footer';
+// import Footer from './components/common/Footer.jsx';
 import './assets/styles/App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div>
         <Navbar />
         <AppRouter />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   )
