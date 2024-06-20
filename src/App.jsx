@@ -8,10 +8,15 @@ import Navbar from './components/common/Navbar';
 import './assets/styles/App.css';
 
 function App() {
+
+  const scrollToNextSection = () => {
+    document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <AppRouter />
         {/* <Footer /> */}
       </div>

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body,
+html,
+#root,
+.App {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Rubik", sans-serif;
+}
