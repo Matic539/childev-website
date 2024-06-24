@@ -1,7 +1,7 @@
 // src/router.jsx
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import TeamPage from './pages/TeamPage';
 // import ServicesPage from './pages/ServicesPage';
 // import PortfolioPage from './pages/PortfolioPage';
 // import BlogPage from './pages/BlogPage';
@@ -13,7 +13,7 @@ function AppRouter() {
         <Router>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
+                <Route path="/team" element={<TeamPage />} />
                 {/* <Route path="/services" element={<ServicesPage />} /> */}
                 {/* <Route path="/portfolio" element={<PortfolioPage />} /> */}
                 {/* <Route path="/blog" element={<BlogPage />} /> */}

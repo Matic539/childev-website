@@ -1,5 +1,4 @@
-.home-section,
-.next-section {
+.home-section {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -71,4 +70,27 @@
     padding: 0 250px;
     background-color: #f0f0f0;
     color: black;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-section h1 {
+        font-size: 3.3em;
+    }
+
+    .home-section p {
+        font-size: 0.9em;
+        max-width: 90%;
+    }
+
+    .link-services-button {
+        margin-top: 20px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
 }

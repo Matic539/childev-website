@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function AboutPage() {
+function TeamPage() {
     return (
         <div id="next-section" className="next-section">
             <h2>Welcome to the Next Section</h2>
@@ -9,4 +9,4 @@ function AboutPage() {
     )
 }
 
-export default AboutPage
+export default TeamPage

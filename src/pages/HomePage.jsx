@@ -1,17 +1,18 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
 import Navbar from "../components/common/Navbar";
+import About from "../components/Home/About";
 import '../components/Home/styles/Home.css';
 
 function HomePage() {
     const scrollToNextSection = () => {
-        document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
     };
 
     return (
         <div>
             <Navbar />
-            <section className="home-section">
+            <section id="home" className="home-section">
                 <div className="home-container">
                     <h1><span>Chil</span>Dev Studio</h1>
                     <div className="desc-home">
@@ -29,8 +30,8 @@ function HomePage() {
                 </div>
             </section>
 
-            <div id="next-section" className="next-section">
-                <h2>Welcome to the Next Section</h2>
+            <div id="about-section">
+                <About />
             </div>
         </div>
     )
