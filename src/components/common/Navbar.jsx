@@ -10,6 +10,10 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    // const scrollToHome = () => {
+    //     document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+    // };
+
     return (
         <nav className="navbar">
             <div className="navbar-logo">
