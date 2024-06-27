@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>esta es la parte de abajo</div>
+    <div>esta es la parte de abajoooooooo</div>
   )
 }
 
