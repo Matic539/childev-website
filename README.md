@@ -27,3 +27,48 @@ cd ChilDev-website
 
 # Instalar dependencias usando Yarn
 yarn install
+```
+
+## Uso
+
+Para ejecutar el proyecto en un entorno de desarrollo, utiliza el siguiente comando:
+
+```bash
+yarn dev
+```
+
+## Contribución
+
+Si quieres contribuir a este proyecto, por favor sigue estos pasos:
+
+```bash
+# Crea una nueva rama para tu característica o corrección de errores
+git checkout -b nombre-de-la-rama
+
+# Realiza tus cambios y haz commit
+git add .
+git commit -m "Descripción de los cambios"
+
+# Sube tus cambios a tu repositorio
+git push origin nombre-de-la-rama
+```
+
+Avisame por wsp cuando termines
+
+## Actualización del Repositorio
+
+Para mantener tu repositorio actualizado con los cambios más recientes, sigue estos pasos:
+
+```bash
+# Avisa por wsp antes de hacerlo
+git pull origin main
+```
+
+## Tecnologías Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Yarn](https://yarnpkg.com/)
+
+
+
