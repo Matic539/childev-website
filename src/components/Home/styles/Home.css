@@ -72,6 +72,10 @@
     color: black;
 }
 
+.contactForm {
+    padding: 100px 10px;
+}
+
 @media (max-width: 768px) {
     .home-container {
         padding: 0 20px;

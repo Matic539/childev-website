@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/common/Navbar";
 import About from "../components/Home/About";
 import Services from "../components/Home/Services";
+import Contact from "../components/Home/Contact";
 import '../components/Home/styles/Home.css';
 
 function HomePage() {
@@ -40,6 +41,9 @@ function HomePage() {
             </div>
             <div id="services-section">
                 <Services />
+            </div>
+            <div id="contactForm-section" className="contactForm">
+                <Contact />
             </div>
         </div>
     )
