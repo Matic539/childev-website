@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import webDevIcon from '../services/img/MonitorDashboard.svg';
-import ConsultIcon from '../services/img/Gear.svg';
-import ecommerceIcon from '../services/img/ShoppingCart.svg';
-import AutomationIcon from '../services/img/Robot.svg';
-import softwareDevIcon from '../services/img/Programming.svg';
-import cotactIcon from '../services/img/Person.svg';
+import webDevIcon from './img/services/MonitorDashboard.svg';
+import ConsultIcon from './img/services/Gear.svg';
+import ecommerceIcon from './img/services/ShoppingCart.svg';
+import AutomationIcon from './img/services/Robot.svg';
+import softwareDevIcon from './img/services/Programming.svg';
+import cotactIcon from './img/services/Person.svg';
 import './styles/Services.css';
 import 'aos/dist/aos.css';
 
