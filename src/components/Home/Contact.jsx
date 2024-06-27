@@ -40,7 +40,7 @@ function Contact() {
                                     <ul>
                                         <li><a href='https://www.instagram.com/chil.dev/'>Instagram</a></li>
                                         <li><a href='https://www.tiktok.com/@chil.dev?lang=es'>TikTok</a></li>
-                                        <li><a href='#'>Twitter</a></li>
+                                        <li><a href=''>Twitter</a></li>
                                     </ul>
                                 </div>
                             </div>
