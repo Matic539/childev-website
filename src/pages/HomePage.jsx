@@ -29,7 +29,7 @@ function HomePage() {
                             <b>Conoce más de nosotros</b>
                         </button>
                         <button onClick={scrollToServiceSection} className="link-services-button">
-                            <b>Nuestros servicios Hola Mundo</b>
+                            <b>Nuestros servicios</b>
                         </button>
                     </div>
                 </div>
