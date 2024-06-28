@@ -4,6 +4,7 @@ import Navbar from "../components/common/Navbar";
 import About from "../components/Home/About";
 import Services from "../components/Home/Services";
 import Contact from "../components/Home/Contact";
+import Footer from "../components/common/Footer";
 import '../components/Home/styles/Home.css';
 
 function HomePage() {
@@ -44,6 +45,9 @@ function HomePage() {
             </div>
             <div id="contactForm-section" className="contactForm">
                 <Contact />
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </div>
     )
