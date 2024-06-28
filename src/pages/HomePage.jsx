@@ -12,8 +12,8 @@ function HomePage() {
         document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
     };
 
-    const scrollToServiceSection = () => {
-        document.getElementById('services-section').scrollIntoView({ behavior: 'smooth' });
+    const scrollToContactForm = () => {
+        document.getElementById('contactForm-section').scrollIntoView({ behavior: 'smooth' });
     };
 
     return (
@@ -30,8 +30,8 @@ function HomePage() {
                         <button onClick={scrollToAboutSection} className="scroll-button">
                             <b>Conoce más de nosotros</b>
                         </button>
-                        <button onClick={scrollToServiceSection} className="link-services-button">
-                            <b>Nuestros servicios</b>
+                        <button onClick={scrollToContactForm} className="link-services-button">
+                            <b>Contáctanos</b>
                         </button>
                     </div>
                 </div>
