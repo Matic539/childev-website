@@ -10,6 +10,10 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    // const scrollToContactForm = () => {
+    //     document.getElementById('contactForm-section').scrollIntoView({ behavior: 'smooth' });
+    // };
+
     return (
         <nav className="navbar">
             <div className="navbar-logo">
@@ -21,6 +25,9 @@ function Navbar() {
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/team">Equipo</a></li>
                 <li><a href="/services">Servicios</a></li>
+                <li><a href="/portfolio">Portafolio</a></li>
+                {/* <li><a href="/contact">Contacto</a></li> */}
+                {/* <li><a href="/faq">FAQ</a></li> */}
             </ul>
             <div className="menu-icon" onClick={toggleMenu}>
                 <div className="bar"></div>

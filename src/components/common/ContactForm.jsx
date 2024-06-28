@@ -19,6 +19,7 @@ function ContactForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // Aquí puedes manejar el envío del formulario, por ejemplo, enviarlo a una API
         console.log('Form data submitted:', formData);
     };
 
