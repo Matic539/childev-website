@@ -1,72 +1,29 @@
-.wave-container {
-    position: relative;
-}
-
-.wave {
-    position: relative;
-    top: 0;
-    left: 0;
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    background-color: black;
+    text-align: center;
 }
 
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 200px;
-}
-
-.wave .shape-fill {
-    fill: #ffffff;
-}
-
-/* Footer.css CHATGPT */
 .footer-container {
-    position: relative;
-    background-color: black;
-    color: white;
-    padding-top: 100px;
-}
-
-.footer-content {
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px 50px 50px;
-    margin-top: -70px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer-content .menu,
-.footer-content .products,
-.footer-content .social,
-.footer-content .interest {
-    flex: 1;
+.social-icons {
+    margin-top: 10px;
 }
 
-.footer-content h3 {
-    margin-bottom: 20px;
+.social-icon {
+    font-size: 28px;
+    margin: 0 10px;
+    color: #fff;
 }
 
-.footer-content ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-content ul li {
-    margin-bottom: 10px;
-}
-
-.footer-content .social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.footer-content .social-icons i {
-    font-size: 24px;
-}
-
-.footer-content .interest i {
-    font-size: 24px;
+.social-icon:hover {
+    color: #ddd;
+    transform: scale(1.1);
 }
