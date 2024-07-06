@@ -17,35 +17,19 @@ function Footer() {
             <h3>Menú</h3>
             <ul>
               <li>Inicio</li>
-              <li>Servicios tecnológicos</li>
-              <li>Productos</li>
+              <li>Equipo</li>
+              <li>Servicios</li>
               <li>Trabaja con nosotros</li>
-            </ul>
-          </div>
-          <div className="products">
-            <h3>Productos</h3>
-            <ul>
-              <li>LARA Chatbots</li>
-              <li>Ivento</li>
-              <li>GatAuth</li>
-              <li>Meleti</li>
-              <li>Vive Las Tarjetas</li>
-              <li>INDicadores CL</li>
-              <li>Otros Productos</li>
             </ul>
           </div>
           <div className="social">
             <h3>Síguenos en Redes Sociales</h3>
             <div className="social-icons">
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-facebook"></i>
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
             </div>
-          </div>
-          <div className="interest">
-            <h3>Te puede interesar</h3>
-            <i className="fab fa-google-play"></i>
           </div>
         </div>
       </div>
