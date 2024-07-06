@@ -13,7 +13,7 @@ function Contact() {
     }, []);
 
     return (
-        <div>
+        <div className='wave-background'>
             <section className='contact-section'>
                 <div className="contact-container">
                     <h2>Contacto</h2>
@@ -38,9 +38,8 @@ function Contact() {
                                 <h3>Redes sociales</h3>
                                 <div className="contact-social-list">
                                     <ul>
-                                        <li><a href='https://www.instagram.com/chil.dev/'>Instagram</a></li>
-                                        <li><a href='https://www.tiktok.com/@chil.dev?lang=es'>TikTok</a></li>
-                                        <li><a href=''>Twitter</a></li>
+                                        <li><a href='https://www.instagram.com/chil.dev/' target="_blank">Instagram</a></li>
+                                        <li><a href='https://www.tiktok.com/@chil.dev?lang=es' target="_blank">TikTok</a></li>
                                     </ul>
                                 </div>
                             </div>

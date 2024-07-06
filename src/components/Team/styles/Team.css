@@ -1,6 +1,6 @@
 .team-page {
     color: #000;
-    padding: 4rem 10vw 5rem;
+    padding: 4rem 10vw 3rem;
     /* Ajustado para unidades relativas */
 }
 
@@ -17,7 +17,7 @@
 .team-container h2 {
     font-size: 2.8em;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .team-container p {
@@ -43,9 +43,7 @@
 .team-desc,
 .team-img {
     width: 90%;
-    /* Ajustado para que ocupen el 90% del contenedor */
     margin-bottom: 1.5rem;
-    /* Espacio entre elementos */
 }
 
 .team-desc {
@@ -93,14 +91,35 @@
     height: auto;
 }
 
+.team-links img:hover {
+    transform: scale(1.2);
+}
+
 .team-img {
+    display: flex;
+    justify-content: center;
     width: 45%;
     padding: 0 40px;
 }
 
-@media (max-width: 600px) {
+.team-img img {
+    width: 75%;
+    border-radius: 40px;
+    border: 20px solid #e3e3e3;
+}
+
+.team-img:hover {
+    transition: 0.6s ease;
+    transform: scale(1.1);
+}
+
+.team-contact-form {
+    padding-bottom: 6rem;
+}
+
+@media (max-width: 800px) {
     .team-page {
-        padding: 2rem 1rem;
+        padding: 4rem 1rem 2rem;
     }
 
     .team-container h2 {
