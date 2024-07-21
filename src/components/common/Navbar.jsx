@@ -20,7 +20,7 @@ function Navbar() {
             <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/team">Equipo</a></li>
-                <li><a href="/services">Servicios</a></li>
+                {/* <li><a href="/services">Servicios</a></li> */}
             </ul>
             <div className="menu-icon" onClick={toggleMenu}>
                 <div className="bar"></div>
