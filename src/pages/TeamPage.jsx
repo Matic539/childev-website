@@ -34,7 +34,7 @@ function TeamPage() {
                                     Para más información, puedes explorar mi portafolio web
                                 </p>
                                 <div className="team-links">
-                                    <a href="https://matic539.github.io/portfolio/" target="_blank">Mi portafolio</a>
+                                    <a href="https://matic539.github.io/My-portfolio/" target="_blank">Mi portafolio</a>
                                     <ul>
                                         <li>
                                             <a href="https://www.instagram.com/dinamic_official/" target="_blank"><img src={InstagramIcon} alt="Instagram" /></a>
@@ -67,10 +67,10 @@ function TeamPage() {
                                 <p>Desarrollador...</p>
                                 <p>
                                     Un experto en diseño y desarrollo web con 2 años de experiencia.
-                                    Para más información, te invito a explorar mi portafolio web
+                                    {/* Para más información, te invito a explorar mi portafolio web */}
                                 </p>
                                 <div className="team-links">
-                                    <a href="" target="_blank">Mi portafolio</a>
+                                    {/* <a href="" target="_blank">Mi portafolio</a> */}
                                     <ul>
                                         <li>
                                             <a href="https://www.instagram.com/el.peeyo/" target="_blank"><img src={InstagramIcon} alt="Instagram" /></a>
@@ -98,10 +98,10 @@ function TeamPage() {
                                 <p>
                                     Estudiante de ingeniería informática y apasionado de la tecnología, 
                                     tengo conocimientos tanto en front end como en back end y en el desarrollo de software.
-                                    Para más información sobre mi, puedes explorar mi portafolio web
+                                    {/* Para más información sobre mi, puedes explorar mi portafolio web */}
                                 </p>
                                 <div className="team-links">
-                                    <a href="">Mi portafolio</a>
+                                    {/* <a href="">Mi portafolio</a> */}
                                     <ul>
                                         <li>
                                             <a href="https://www.instagram.com/r.o.g.n_/" target="_blank"><img src={InstagramIcon} alt="Instagram" /></a>
