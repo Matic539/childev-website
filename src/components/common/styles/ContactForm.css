@@ -37,6 +37,10 @@
     font-size: 18px;
 }
 
+.contact-form-container textarea {
+    resize: vertical;
+}
+
 .contact-form-container button {
     font-size: 20px;
     background-color: black;

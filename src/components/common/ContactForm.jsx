@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import './styles/ContactForm.css';
 
 function ContactForm() {
     const { register, handleSubmit, formState: { errors } } = useForm();
+    const [status, setStatus] = useState('');
 
-    const onSubmit = (data) => {
-        console.log('Form data submitted:', data);
+    const onSubmit = async (data) => {
+        try {
+            const response = await fetch('https://formspree.io/f/movajvag', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                setStatus('SUCCESS');
+            } else {
+                setStatus('ERROR');
+            }
+        } catch (error) {
+            setStatus('ERROR');
+        }
     };
 
     return (
@@ -24,7 +41,7 @@ function ContactForm() {
                             required: "Este campo es obligatorio",
                             pattern: {
                                 value: /^[a-zA-Z]{3,15}\s[a-zA-Z]{2,15}$/,
-                                message: "Un nombre y Un apellido"
+                                message: "Un nombre y Un apellido (Sin tilde)"
                             }
                         })}
                     />
@@ -83,6 +100,8 @@ function ContactForm() {
 
                     <button type="submit">Enviar</button>
                 </form>
+                {status === 'SUCCESS' && <p>¡Gracias! Tu mensaje ha sido enviado.</p>}
+                {status === 'ERROR' && <p>Hubo un error. Por favor, intenta de nuevo.</p>}
             </div>
         </div>
     );
