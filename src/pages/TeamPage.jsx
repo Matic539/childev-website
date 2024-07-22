@@ -9,7 +9,7 @@ import GithubIcon from '../components/Team/img/githubIcon.svg';
 import GmailIcon from '../components/Team/img/gmailIcon.svg';
 import MatiasPhoto from '../components/Team/img/matiasimg.webp';
 import AlfredoPhoto from '../components/Team/img/peyoimg.webp';
-import borrar2 from '../components/Team/img/borrar2.webp';
+import RodolfoPhoto from '../components/Team/img/rodolfoIMG.webp';
 import '../components/Team/styles/Team.css';
 
 
@@ -119,7 +119,7 @@ function TeamPage() {
                                 </div>
                             </div>
                             <div className="team-img">
-                                <img src={borrar2} alt="foto Rodolfo Guzman" />
+                                <img src={RodolfoPhoto} alt="foto Rodolfo Guzman" />
                             </div>
                         </div>
                     </div>
