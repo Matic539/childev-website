@@ -84,6 +84,10 @@
     .home-container {
         padding: 0 20px;
     }
+
+    .home-section p {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -93,11 +97,10 @@
 
     .home-section p {
         font-size: 0.9em;
-        max-width: 90%;
     }
 
     .link-services-button {
-        margin-top: 20px;
+        margin-top: 25px;
         border: 1px solid #fff;
         border-radius: 5px;
     }

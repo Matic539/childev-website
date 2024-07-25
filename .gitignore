@@ -29,3 +29,14 @@ yarn-error.log*
 .yarnrc.yml
 .yarnrc
 .yarn-integrity
+
+# Firebase config
+.firebaserc
+firebase.json
+src/firebaseConfig.js
+
+# Firebase cache and config files
+.firebase/
+
+# Otras configuraciones específicas de tu proyecto
+.eslintcache
